@@ -3,7 +3,7 @@ title: conda
 aliases:
   - "Python 环境管理器"
 created: 2023-07-27
-date: 2023-07-31
+date: 2023-08-02
 tags:
   - entity
   - dev-ops
@@ -34,4 +34,4 @@ conda create -n env_name --clone old_env_name
 
 ## References
 
-1. [conda document](https://docs.conda.io/projects/conda/en/stable/index.html)
+- [conda document](https://docs.conda.io/projects/conda/en/stable/index.html)

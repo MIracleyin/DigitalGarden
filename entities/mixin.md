@@ -1,7 +1,7 @@
 ---
 title: mixin
 created: 2023-07-26
-date: 2023-07-31
+date: 2023-08-02
 tags:
 - entity
 - dev-ops
@@ -62,5 +62,5 @@ module.exports.parse = ({ content }) => {
 
 ## References
 
-1. <https://github.com/Fndroid/clash_for_windows_pkg/issues/4568>
-1. <https://github.com/JeffersonQin/clash-multi-mixin>
+- <https://github.com/Fndroid/clash_for_windows_pkg/issues/4568>
+- <https://github.com/JeffersonQin/clash-multi-mixin>
