@@ -3,7 +3,7 @@ title: conda
 aliases:
   - "Python 环境管理器"
 created: 2023-07-27
-date: 2023-08-02
+date: 2023-08-10
 tags:
   - entity
   - dev-ops
@@ -30,6 +30,15 @@ conda create -n env_name python=3.8
 conda env remove -n env_name
 # 复制环境
 conda create -n env_name --clone old_env_name
+```
+
+- 常见包安装
+
+```bash
+# cv2
+conda install opencv
+# torch 2
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
 ## References

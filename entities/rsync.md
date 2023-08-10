@@ -1,11 +1,13 @@
 ---
 title: rsync
 created: 2023-07-28
-date: 2023-08-01
+date: 2023-08-10
 tags:
 - entity
 - dev-ops
 ---
+## 什么是 rsync
+
 ## 用法
 
 ### 基本复制

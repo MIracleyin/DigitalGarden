@@ -3,7 +3,7 @@ title: unix tools
 aliases:
 - Unix 系统常用工具
 created: 2023-07-26
-date: 2023-08-01
+date: 2023-08-10
 tags:
 - entity
 - dev-ops
@@ -31,11 +31,21 @@ tar cfz bigfile.tgz bigfile
 # zip 
 zip ./bigfile.zip bigfile
 # gzip 就地压缩，原文件被压缩文件替换
+tar –xvf file.tar
+tar -xzvf file.tar.gz //解压tar.gz
+tar -xjvf file.tar.bz2   //解压 tar.bz2tar –xZvf file.tar.Z //解压tar.Z
+
 gzip bigfile
 # bzip2 类似 gzip
 bzip bigfile
 # xz 类似 gzip 花费更多时间，压缩率更高
 xz bigfile
+```
+
+- 批量修改后缀名
+
+```bash
+for i in /path/to/sample/*.a; do mv "$i" "${i%.a}.b"; done
 ```
 
 - macOS 相关
