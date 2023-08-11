@@ -3,7 +3,7 @@ title: unix tools
 aliases:
 - Unix 系统常用工具
 created: 2023-07-26
-date: 2023-08-10
+date: 2023-08-11
 tags:
 - entity
 - dev-ops
@@ -46,6 +46,14 @@ xz bigfile
 
 ```bash
 for i in /path/to/sample/*.a; do mv "$i" "${i%.a}.b"; done
+```
+
+- 查看路径下文件数量
+
+```bash
+ls -l |grep "^-"|wc -l
+# 查看行数 
+wc -l file
 ```
 
 - macOS 相关
